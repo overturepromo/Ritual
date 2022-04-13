@@ -4,8 +4,8 @@
  *Date: 04/08/2022
  *Description: Call Ritual API to retrieve orders to Create SO record in NS
  */
-
- //Call their api
+//Login via OAuth2 to SF
+//Call their api
 //Retreieve their orders
 //loop through ther orders
 //Create and fill out SO in NS
