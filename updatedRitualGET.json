@@ -1,0 +1,114 @@
+{
+    "totalSize": 4,
+    "done": true,
+    "records": [
+        {
+            "attributes": {
+                "type": "Equipment_Order__c",
+                "url": "/services/data/v54.0/sobjects/Equipment_Order__c/a2j8C000000CdeTQAS"
+            },
+            "Id": "a2j8C000000CdeTQAS",
+            "Name": "17397",
+            "Equipment__c": "Merchant Device",
+            "Store_Contact_First_Name__c": "Howard",
+            "Store_Contact_Last_Name__c": "Huang",
+            "Store_Phone_Number__c": null,
+            "Store_Contact_Email_Address__c": "howard@ritual.co",
+            "Account__r": {
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v54.0/sobjects/Account/0018C00000DFuTCQA1"
+                },
+                "Store_Name__c": "Howard's Cafe"
+            },
+            "Shipping_Street__c": "82 Peter Street",
+            "Shipping_Address_Line_2__c": null,
+            "Shipping_City__c": "Toronto",
+            "Shipping_Postal_Code__c": "M5V 2G5",
+            "Shipping_State__c": "ON",
+            "Shipping_Country_Text__c": "Canada",
+            "Notes__c": "#Send\r\nReason: Clear address/contact.  Is a shipping Order. Merchant Device translate to RIT007-CA."
+        },
+        {
+            "attributes": {
+                "type": "Equipment_Order__c",
+                "url": "/services/data/v54.0/sobjects/Equipment_Order__c/a2j8C000000CrqeQAC"
+            },
+            "Id": "a2j8C000000CrqeQAC",
+            "Name": "17404",
+            "Equipment__c": "Install Kit Marketing Only",
+            "Store_Contact_First_Name__c": "Milos",
+            "Store_Contact_Last_Name__c": "Svilaric",
+            "Store_Phone_Number__c": "555-5678",
+            "Store_Contact_Email_Address__c": "milos@ritual.co",
+            "Account__r": {
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v54.0/sobjects/Account/0018C00000DFuTgQAL"
+                },
+                "Store_Name__c": "Milos' Diner"
+            },
+            "Shipping_Street__c": "82 Peter Street",
+            "Shipping_Address_Line_2__c": "4th Fl",
+            "Shipping_City__c": "Toronto",
+            "Shipping_Postal_Code__c": "M5V2G5",
+            "Shipping_State__c": "ON",
+            "Shipping_Country_Text__c": "Canada",
+            "Notes__c": null
+        },
+        {
+            "attributes": {
+                "type": "Equipment_Order__c",
+                "url": "/services/data/v54.0/sobjects/Equipment_Order__c/a2j8C000000CdeYQAS"
+            },
+            "Id": "a2j8C000000CdeYQAS",
+            "Name": "17398",
+            "Equipment__c": "Install Kit No DPS",
+            "Store_Contact_First_Name__c": "Howard",
+            "Store_Contact_Last_Name__c": "Huang",
+            "Store_Phone_Number__c": null,
+            "Store_Contact_Email_Address__c": "howard@ritual.co",
+            "Account__r": {
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v54.0/sobjects/Account/0018C00000DFuTCQA1"
+                },
+                "Store_Name__c": "Howard's Cafe"
+            },
+            "Shipping_Street__c": "82 Peter Street, Toronto ON M5V2G5",
+            "Shipping_Address_Line_2__c": null,
+            "Shipping_City__c": "Toronto",
+            "Shipping_Postal_Code__c": "M5V",
+            "Shipping_State__c": "ON",
+            "Shipping_Country_Text__c": "can",
+            "Notes__c": "#DoNotSend\r\nReason: Address syntax issues.  city/prov/postal code is in Address1.\r\nInstall Kit No DPS translates to 2 SKUs. RIT007-CA & RIT-CADKIT\r\n(i.e. device & signage)"
+        },
+        {
+            "attributes": {
+                "type": "Equipment_Order__c",
+                "url": "/services/data/v54.0/sobjects/Equipment_Order__c/a2j8C000000CdedQAC"
+            },
+            "Id": "a2j8C000000CdedQAC",
+            "Name": "17399",
+            "Equipment__c": "Merchant Device",
+            "Store_Contact_First_Name__c": "Milos",
+            "Store_Contact_Last_Name__c": "Svilaric",
+            "Store_Phone_Number__c": "555-5678",
+            "Store_Contact_Email_Address__c": "milos@ritual.co",
+            "Account__r": {
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v54.0/sobjects/Account/0018C00000DFuTgQAL"
+                },
+                "Store_Name__c": "Milos' Diner"
+            },
+            "Shipping_Street__c": "82 Peter Street",
+            "Shipping_Address_Line_2__c": "Unit#200",
+            "Shipping_City__c": "Toronto",
+            "Shipping_Postal_Code__c": "M5V 2G5",
+            "Shipping_State__c": "Ontario",
+            "Shipping_Country_Text__c": "CA",
+            "Notes__c": "#Send\r\nReason: Address is complete with no spelling/syntax issues.  (In Canada) SKU translates Merchant Device = RIT007-CA"
+        }
+    ]
+}
